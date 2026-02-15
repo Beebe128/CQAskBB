@@ -1,0 +1,35 @@
+{
+  "game_id": "chrono_trigger",
+  "title": "Chrono Trigger",
+  "layer_depths": {
+    "bg_far": -7.0,
+    "bg_mid": -4.0,
+    "bg_near": -1.5,
+    "sprites": 0.0,
+    "effects": 1.0,
+    "ui": 3.0
+  },
+  "lit_layers": [
+    "bg_mid",
+    "bg_near",
+    "sprites",
+    "effects"
+  ],
+  "unlit_layers": [
+    "ui"
+  ],
+  "mode7_strategy": "hybrid_profiled",
+  "notes": "Town scenes should favor soft ambient fill while combat scenes can increase directional intensity for dramatic shadows.",
+  "lighting": {
+    "directional_intensity": 1.1,
+    "ambient_intensity": 0.4,
+    "shadow_softness": 0.35,
+    "bloom_strength": 0.25
+  },
+  "preset": {
+    "camera_pitch_limit_deg": 22,
+    "camera_yaw_limit_deg": 18,
+    "depth_of_field": true,
+    "fog": true
+  }
+}

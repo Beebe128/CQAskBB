@@ -1,0 +1,33 @@
+{
+  "game_id": "alttp",
+  "title": "The Legend of Zelda: A Link to the Past",
+  "layer_depths": {
+    "bg_far": -6.0,
+    "bg_mid": -3.0,
+    "bg_near": -1.0,
+    "sprites": 0.0,
+    "ui": 3.0
+  },
+  "lit_layers": [
+    "bg_mid",
+    "bg_near",
+    "sprites"
+  ],
+  "unlit_layers": [
+    "ui"
+  ],
+  "mode7_strategy": "specialized_mesh",
+  "notes": "Prioritize dungeon readability. Keep UI unlit for clean legibility, and clamp pitch to avoid hiding enemies behind tile extrusion.",
+  "lighting": {
+    "directional_intensity": 1.0,
+    "ambient_intensity": 0.35,
+    "shadow_softness": 0.45,
+    "bloom_strength": 0.2
+  },
+  "preset": {
+    "camera_pitch_limit_deg": 20,
+    "camera_yaw_limit_deg": 15,
+    "depth_of_field": true,
+    "fog": true
+  }
+}
